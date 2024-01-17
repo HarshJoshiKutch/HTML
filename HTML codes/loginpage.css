@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Be Vietnam Pro",sans-serif; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+html{
+
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin-top: 1%;
+    background: linear-gradient(to right,rgb(0, 195, 255),rgb(195, 32, 244),rgb(255, 61, 210));
+}
+
+
+.container{
+    max-width: 900px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+   border-radius: 10px;
+   box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    margin: 0 auto;
+    background-color: #ffffff;
+
+}
+.inside{
+    padding: 15px;
+}
+.header{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+text-align: right;
+}
+
+.lab{
+    font-size: 1rem;
+    padding: 5px;
+
+}
+
+.lab1{
+    font-size: 1rem;
+    padding: 5px;
+    /* border: 0; */
+
+}
+.btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    background: linear-gradient(to right,rgb(58, 153, 255),rgb(140, 35, 225),rgb(194, 36, 222));
+    font-weight: bolder;
+    cursor: pointer;
+}
+.join{
+margin-top: 15px;
+text-align: center;
+}
+.logo{
+    font-size: 30px;
+    padding: 10px;
+}
+.logo i{
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    margin-top: 25px;
+}
+.footer p{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}

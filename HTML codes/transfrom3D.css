@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.translated{
+    transform: perspective(15px) translateZ(-15px);
+    /* aama rotate thase jema thi or one side 2 box aagad avse and box pachad jato rahse */
+}
+
+.scaled{
+    margin: 100px;
+    transform: perspective(350px)  scaleZ(9) rotateZ(45deg) rotateY(30deg);
+}
